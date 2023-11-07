@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimalna wysokość na całą wysokość widoku (viewport height) */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+}
+
+/* Dodane style dla sekcji z produktami */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product p {
+  margin-top: 10px;
+}
+
+/* Dodane style dla przycisków */
+.przycisk {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Stylizacja sekcji content */
+.content {
+  flex: 1; /* Elastyczna przestrzeń wypełniająca dostępne miejsce */
+  padding: 20px;
+  background-color: black; /* Kolor tła dla sekcji content */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Cień */
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product p {
+  margin-top: 10px;
+}
+
+/* Dodane style dla przycisków */
+.przycisk {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* Stylizacja stopki (footer) */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+/* Dodatkowe style dla przycisku */
+.przycisk:hover {
+  background-color: #45a049;
+}
+
+
+
+.content {
+  padding: 20px;
+  background-image: url(back.jpg);
+  text-align: center;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
+}
+
+/* ... Pozostałe style ... */
+h2{
+  color: #fff;
+}
